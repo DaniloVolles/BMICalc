@@ -1,5 +1,9 @@
 # BMICalc
 
+### What does it do?
+In this project, I have implemented a Body Mass Index (BMI) calculator. The BMI tells us if our weight is healthy to our height. If you have low body mass in relation to your height, it might entail illnesses, as well if you have too much body mass.
+To calculate BMI, you can divide your weight to the square of your height! Or, you can do it easier and funnier with this app!
+
 ### About
 - This is a Kotlin only project. I started to write it to improve my programming algorithm skills.
 - This project is only readable in console/terminal. The scope of the project does not include a graphic interface.
