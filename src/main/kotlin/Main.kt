@@ -17,14 +17,24 @@ fun main(args: Array<String>) {
     var weight = input.nextDouble()
 
     // Output data
-    println("Your height is $height cm and your weight is $weight kg.")
+    println("Your height is $height m and your weight is $weight kg.")
 
     // BMI calculation
+    var bmi = bmiCalculation(height, weight)
+    var result = bmiResult(bmi)
+
+    println(result)
+}
+
+fun bmiCalculation (height: Double, weight: Double): Double {
     var bmi = weight/(height*height)
+    return bmi
+}
+
+fun bmiResult (bmi: Double) {
 
     val initialText = "Your BMI index is $bmi and you are"
 
-    // Flow - Here I will say what stage they are in the BMI scale
     if (bmi < 18.5) {
         println("$initialText underweight")
     } else if (bmi < 25) {
@@ -36,4 +46,5 @@ fun main(args: Array<String>) {
     } else {
         println("$initialText extremely obese")
     }
+
 }
