@@ -1,10 +1,9 @@
 import java.util.Scanner
 
-// Variable initialization
-
-fun main(args: Array<String>) {
-
     val input = Scanner(System.`in`)
+
+fun main() {
+
 
     // Presenting the program
     println("Be very welcome to the BMI calculator!\n" +
@@ -17,34 +16,11 @@ fun main(args: Array<String>) {
     var weight = input.nextDouble()
 
     // Output data
-    println("Your height is $height m and your weight is $weight kg.")
+    println("Your height is $height meters and your weight is $weight kilograms.")
 
     // BMI calculation
     var bmi = bmiCalculation(height, weight)
     var result = bmiResult(bmi)
 
     println(result)
-}
-
-fun bmiCalculation (height: Double, weight: Double): Double {
-    var bmi = weight/(height*height)
-    return bmi
-}
-
-fun bmiResult (bmi: Double) {
-
-    val initialText = "Your BMI index is $bmi and you are"
-
-    if (bmi < 18.5) {
-        println("$initialText underweight")
-    } else if (bmi < 25) {
-        println("$initialText normal weight")
-    } else if (bmi < 30) {
-        println("$initialText overweight")
-    } else if (bmi < 35) {
-        println("$initialText obese")
-    } else {
-        println("$initialText extremely obese")
-    }
-
 }
