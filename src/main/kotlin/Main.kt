@@ -1,7 +1,3 @@
-import java.util.Scanner
-
-    val input = Scanner(System.`in`)
-
 fun main() {
 
     // Presenting the program
@@ -10,9 +6,9 @@ fun main() {
 
     // Input data
     println("Insert your height in meters:")
-    val height = input.nextDouble()
+    val height = readln().toDouble()
     println("Insert your weight in kilograms:")
-    val weight = input.nextDouble()
+    val weight = readln().toDouble()
 
     // Output data
     println("Your height is $height meters and your weight is $weight kilograms.")
@@ -22,3 +18,5 @@ fun main() {
 
     println(result)
 }
+
+// Implementar menu
