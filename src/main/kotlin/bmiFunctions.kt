@@ -4,18 +4,18 @@ fun bmiCalculation(height: Double, weight: Double): Double {
 
 fun bmiResult (bmi: Double) {
 
-    val initialText = "Your BMI index is $bmi and you are"
+    val sameText = "Your BMI index is $bmi and you are"
 
     if (bmi < 18.5) {
-        println("$initialText underweight")
+        println("$sameText underweight")
     } else if (bmi < 25) {
-        println("$initialText normal weight")
+        println("$sameText normal weight")
     } else if (bmi < 30) {
-        println("$initialText overweight")
+        println("$sameText overweight")
     } else if (bmi < 35) {
-        println("$initialText obese")
+        println("$sameText obese")
     } else {
-        println("$initialText extremely obese")
+        println("$sameText extremely obese")
     }
 
 }
