@@ -17,4 +17,5 @@ I recommend you to use the <b>IntelliJ Idea IDE</b>, but you can open it in VS C
 4. You must interact with this program in <b>terminal</b>.
 
 ## Project highlight
- - I will update it here when the program is finished!
+
+![Captura de tela 2023-02-06 200746](https://user-images.githubusercontent.com/107259505/217107751-41b6a94c-4f50-4a74-bce5-999e98bfcaff.png)
